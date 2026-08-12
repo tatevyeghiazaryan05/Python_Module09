@@ -1,8 +1,8 @@
 from enum import Enum
-from typing import Optional, Self
+from typing import Optional
 from datetime import datetime
 from pydantic import BaseModel, Field, ValidationError, model_validator
-
+from typing_extensions import Self
 
 class ContactType(str, Enum):
     RADIO = "radio"
