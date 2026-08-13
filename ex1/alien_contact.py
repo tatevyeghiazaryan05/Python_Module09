@@ -4,6 +4,7 @@ from datetime import datetime
 from pydantic import BaseModel, Field, ValidationError, model_validator
 from typing_extensions import Self
 
+
 class ContactType(str, Enum):
     RADIO = "radio"
     VISUAL = "visual"
